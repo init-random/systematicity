@@ -5,6 +5,8 @@ from main import ApplicationData
 import numpy as np
 import pandas as pd
 
+# NB: this would certainly need to be cleaned up, it is currently
+# just some ad-hoc code
 
 data_fn = 'data/data.csv'
 data = ApplicationData(data_fn)
